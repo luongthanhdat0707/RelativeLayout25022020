@@ -7,65 +7,90 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFF"
-        android:background="#f20"
-        android:text="Top Content Here"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#DC91694E"
+        android:text="6"
         android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <LinearLayout
-            android:orientation="horizontal"
-            android:layout_centerVertical="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <RelativeLayout
-                android:gravity="right"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:textSize="30sp"
-                    android:textColor="#ffff"
-                    android:background="#45CF5D"
-                    android:text="First"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            </RelativeLayout>
-            <RelativeLayout
-                android:gravity="center"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:textSize="30sp"
-                    android:textColor="#ffff"
-                    android:background="#1E88E5"
-                    android:text="Second"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            </RelativeLayout>
-            <RelativeLayout
-                android:gravity="left"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:textSize="30sp"
-                    android:textColor="#ffff"
-                    android:background="#C0CA33"
-                    android:text="Three"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            </RelativeLayout>
-        </LinearLayout>
     <TextView
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:textColor="#FFF"
-        android:background="#856F6C"
-        android:text="Bottom Content Here"
+        android:layout_alignParentRight="true"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#03A9F4"
+        android:text="7"
         android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#123F70"
+        android:text="8"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#B5963C"
+        android:text="9"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#f20"
+        android:text="1"
+        android:id="@+id/textview1"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toLeftOf="@+id/textview1"
+        android:layout_above="@+id/textview1"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#4CAF50"
+        android:text="2"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toRightOf="@+id/textview1"
+        android:layout_above="@+id/textview1"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#BB00FF"
+        android:text="4"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toLeftOf="@+id/textview1"
+        android:layout_below="@+id/textview1"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#CDDC39"
+        android:text="3"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toRightOf="@+id/textview1"
+        android:layout_below="@+id/textview1"
+        android:paddingHorizontal="40sp"
+        android:paddingVertical="20sp"
+        android:background="#91574E"
+        android:text="5"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
